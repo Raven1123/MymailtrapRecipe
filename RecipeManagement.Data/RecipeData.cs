@@ -9,8 +9,9 @@ namespace RecipeManagement.Data
 {
     public class RecipeData
     {
-         //sa isang pc to string _connectionString = "Data Source=DESKTOP-N5OCNK2\\SQLEXPRESS;Initial Catalog=FoodRecipe;Integrated Security=True;";
-        string _connectionString = "Data Source=DESKTOP-N5OCNK2\\SQLEXPRESS;Initial Catalog=FoodRecipe;Integrated Security=True;";
+         //sa library tong pc string _connectionString = "Data Source=DESKTOP-N5OCNK2\\SQLEXPRESS;Initial Catalog=FoodRecipe;Integrated Security=True;";
+       // string _connectionString = "Data Source=DESKTOP-N5OCNK2\\SQLEXPRESS;Initial Catalog=FoodRecipe;Integrated Security=True;";
+        string _connectionString = "Data Source=LAPTOP-82NTFISB;Initial Catalog=FoodRecipe;Integrated Security=True;";
 
         public List<Recipe> GetRecipes()
         {
